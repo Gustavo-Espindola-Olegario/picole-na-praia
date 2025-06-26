@@ -47,7 +47,7 @@ export default function App() {
       const dados: Picole[] = JSON.parse(conteudo);
       setPicoles(dados);
     } catch (err) {
-      console.log('Nenhum dado salvo ainda ou erro ao ler:', err);
+      console.log('Nenhum dado salvo ainda ou erro ao ler: ', err);
     }
   };
 
